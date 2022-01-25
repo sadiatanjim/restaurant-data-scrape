@@ -37,6 +37,8 @@ With the optimal search radius of 150 meters, we can define search bubbles throu
 - A uniform grid of search bubbles are visualized with folium
 - A more efficient hexagonal grid is realized
 
+![Hexagonal Map of Bubbles](images/hexagonal_map.jpg)
+
 Before demonstrating on the whole country, we would like generate data points/search bubbles for Dhaka first. 
 
 Geometric boundaries are usually defined in GeoJSON files. The GeoJSON file for Dhaka is collected from the following Link: [dhaka.geojson](https://gist.github.com/EmranAhmed/e1f1da00b6677aed023a) 
@@ -46,6 +48,8 @@ Geometric boundaries are usually defined in GeoJSON files. The GeoJSON file for 
 - The search grid is visualized
 - We write the function `get_all_points()` which takes a geographic polygon as input and returns a list of search co-ordinates within the bounds of the polygon
 
+![Dhaka Bubbles](images/dhaka-bubbles.jpg)
+
 ## Collect Data By Districts
 
 **Bangladesh GeoJSON**:
@@ -53,6 +57,8 @@ Geometric boundaries are usually defined in GeoJSON files. The GeoJSON file for 
 Data for the whole country can be found through the Governement website: [GeoDash](https://geodash.gov.bd/)  
 
 The same data is also available as a [Github Repository](https://github.com/fahimxyz/bangladesh-geojson)
+
+![bangladesh-geojson.jpg](images/bangladesh-geojson.jpg)
 
 - Data from the Bangladesh GeoJSON file is used to collect data by district/subdistrict and store them in csv files
 - Later Data from the csv files is combined to generate the final results. 

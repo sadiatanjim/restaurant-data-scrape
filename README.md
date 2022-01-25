@@ -64,6 +64,24 @@ The same data is also available as a [Github Repository](https://github.com/fahi
 - Later Data from the csv files is combined to generate the final results. 
 - Due to limits in API Calls, we were only able to collect data from Dhaka & Chittagong District. 
 
+## Sample Results: 
+
+Sample results can be found in [results_merged.csv](https://github.com/sadiatanjim/restaurant-data-scrape/blob/main/data/results_merged.csv)
+
+Result Format: 
+
+|Field|Description|
+|--------|-----------|
+|name|Name of Restaurant|
+|place_id|Unique identifier for place in Google Maps|
+|latitude|Latitude|
+|longitude|Longitude|
+|rating|Rating (on a scale of 5)|
+|user_ratings_total|No. of Reviews/Ratings|
+|price_level|Affluence/price Level of restaurant|
+
+`N/A` used for missing values. 
+
 ## Conclusion & Next Steps: 
 
 - We can use the above technique to collect data from all over Bangladesh and store them district-wise.

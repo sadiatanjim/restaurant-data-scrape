@@ -3,7 +3,9 @@ folium
 itertools
 json
 numpy
+os
 pandas
 requests
 shapely
 time
+tqdm

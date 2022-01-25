@@ -1,0 +1,9 @@
+geopandas
+folium
+itertools
+json
+numpy
+pandas
+requests
+shapely
+time

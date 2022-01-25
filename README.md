@@ -1,6 +1,6 @@
 # Scraping Restaurant Data using Google Places API
 
-The Goal of this Project is to collect data from restaurants all over Bangladesh using the Google Places API. 
+The Goal of this Project is *to collect data from restaurants all over Bangladesh using the Google Places API.*
 
 The following data is collected for each restaurant:
 - Name
